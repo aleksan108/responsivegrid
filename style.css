@@ -1,0 +1,86 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3.5fr 1.5fr;
+    width: 60wv;
+    max-width: 1100px;
+    height: 60vh;
+    max-height: 650px;
+    justify-items: stretch;
+    align-items: stretch;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.header{
+    background-color: rgba(224, 216, 216, 0.87);
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.main{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.section{
+    background-color: rgba(252, 199, 92,0.65);
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 2%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.subsection{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 6%;
+}
+
+.more1{
+    background-color: rgba(252, 199, 92);
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+.more2{
+    background-color: rgba(252, 199, 92);
+    height: 100%;
+    grid-area: 2/1/2/span 2;
+    display: grid;
+    align-items: center;
+}
+
+.sidebar{
+    background-color: rgb(155, 198, 155);
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 3%;
+}
+
+.footer{
+    box-sizing: border-box;
+    background-color: rgba(224, 216, 216, 0.87);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100%;
+    grid-gap: 2.5%;
+    padding: 2%;
+}
+
+.footersection{
+    background-color: rgba(255, 255, 255,0.85);
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
